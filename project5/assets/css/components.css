@@ -1,0 +1,124 @@
+/* global selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  border: 6px solid #000;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    background-color: #cde3e3;
+    width: 700px;
+
+    /* padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 75px;
+    padding-left: 100px; */
+    /* padding: 50px 25px 75px 100px; */
+
+    /* padding: 50px; */
+    /* padding: 50px 50px 50px 50px; */
+
+    /* padding: 25px 75px 25px 75px; */
+    /* padding: 25px 75px; */
+
+    margin: 50px;
+    /* margin: 50px 50px 50px 50px;
+    margin: 50px 50px; */
+    /* margin-top: 50px;
+    margin-right: 75px;
+    margin-bottom: 125px;
+    margin-left: 150px; */
+
+    margin: 45px 55px;
+}
+
+.parent {
+    width: 800px;
+}
+
+.box-1 {
+    width: 400px;
+    height: 200px;
+    background-color: #e7e71b;
+    padding: 25px;
+    margin: 50px;
+    /* border: 10px double rgb(120, 100, 90); */
+    border-width: 10px;
+    border-color: #080;
+    border-style: dashed;
+    /* box-sizing: content-box; */
+}
+
+.box-2 {
+    width: 400px;
+    height: 200px;
+    background-color: #f00;
+    /* box-sizing: content-box; */
+}
+
+.box-3 {
+    background-color: #e98e1f;
+    width: 400px;
+    height: 400px;
+    /* border: 10px solid #740b91; */
+    /* border-radius: 100px; */
+    /* border-radius: 210px; */
+    /* border-radius: 50%; */
+    /* border-width: 10px; */
+    border-bottom-width: 20px;
+    border-left-width: 10px;
+    border-color: #080;
+    border-style: solid;
+    /* border-bottom-style: solid;
+  border-left-style: double;
+  border-top-style: dashed; */
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    margin: 50px;
+}
+
+p {
+    border-style: solid;
+    border-left-width: 5px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: #000;
+    margin-left: 50px;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wrapper-1 {
+    border: 10px solid #000;
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    padding: 50px;
+    /* box-sizing: content-box; */
+    /* width = element itself 500 + paddings 50 + 50  + borders 10 + 10 + margins 40  + 40 */
+}
+
+.wrapper-2 {
+    border: 10px solid #000;
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    padding: 50px;
+    /* box-sizing: border-box; */
+    /* width = element itself 500 + margins 40 + 40 */
+}
