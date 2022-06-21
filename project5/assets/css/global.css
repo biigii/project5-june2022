@@ -1,0 +1,7 @@
+/* global selector */
+* {
+    /* we do this so padding and border is included within the element size */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

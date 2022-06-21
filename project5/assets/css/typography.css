@@ -1,20 +1,9 @@
  h1 {
-  color: #ff0000;
-  color: rgb(0, 255, 255);
-  color: hsl(120, 100%, 50%);
-  /* opacity: 0.5; */
-  color: rgba(255, 200, 100, 0.75);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
  }
 
  p {
-  display: block;
-  /* display: inline; */
-  /* display: none; */
-  /* opacity: 0; */
- }
-
- a {
-  /* display: inline; */
-  /* display: block; */
-  display: inline-block;
+  text-align: justify;
  }
